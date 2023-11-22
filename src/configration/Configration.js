@@ -1,0 +1,28 @@
+require('dotenv').config()
+
+const {
+    MONGODB_URL,
+    REACT_APP_URL,
+    PORT,
+    NODE_ENV,
+    MAIL_AUTH_USER,
+    MAIL_AUTH_PASS,
+    MAIL_SERVICE,
+    CONTACT_FORM_MAIL_RECEVIER_EMAIL,
+    CONTACT_FORM_MAIL_SUBJECT,
+    MAILER_EMAIL_NAME,
+} = process.env
+
+
+module.exports = {
+    MONGODB_URL,
+    REACT_APP_URL,
+    PORT,
+    NODE_ENV,
+    MAIL_AUTH_USER,
+    MAIL_AUTH_PASS,
+    MAIL_SERVICE,
+    CONTACT_FORM_MAIL_RECEVIER_EMAIL,
+    CONTACT_FORM_MAIL_SUBJECT,
+    MAILER_EMAIL_NAME,
+}
