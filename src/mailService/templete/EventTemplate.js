@@ -1,8 +1,23 @@
 const eventTemplete = ({
-    name,
-    email,
-    number,
-    ticket
+    eventName,
+      eventDate,
+      eventLocation,
+      countOfShares,
+      eventImage,
+      eventLikeCount,
+      eventHighlightes,
+      eventDetails,
+      category,
+      tickets,
+      Payment,
+      mapLocation,
+      expireEventDate,
+      supportEmail,
+      supportNumber,
+      time,
+      organizerName,
+      customer,
+      saleTicket,
 }) => {
     return (
         `<!DOCTYPE html>
@@ -58,10 +73,25 @@ const eventTemplete = ({
             <div >
         
                 <ul ><br>
-                    <li><strong>Name:</strong> ${name}</li><br>
-                    <li><strong>Email:</strong> ${email}</li><br>
-                    <li><strong>Number:</strong> ${number}</li><br>
-                    <li><strong>Number of Tickets:</strong> ${ticket}</li><br>
+                    <li><strong>Name:</strong> ${eventName}</li><br>
+                    <li><strong>Email:</strong> ${eventDate}</li><br>
+                    <li><strong>Number:</strong> ${eventLocation}</li><br>
+                    <li><strong>Image of Event:</strong> ${eventImage}</li><br>
+                    <li><strong>Events Highlightes:</strong> ${eventHighlightes}</li><br>
+                    <li><strong>Count of Likes:</strong> ${eventLikeCount}</li><br>
+                    <li><strong>Detail of Events:</strong> ${eventDetails}</li><br>
+                    <li><strong>Category:</strong> ${category}</li><br>
+                    <li><strong>Tickets:</strong> ${tickets}</li><br>
+                    <li><strong>Payment:</strong> ${Payment}</li><br>
+                    <li><strong>Map Location:</strong> ${mapLocation}</li><br>
+                    <li><strong>Support Email:</strong> ${supportEmail}</li><br>
+                    <li><strong>Support Number:</strong> ${supportNumber}</li><br>
+                    <li><strong>Time:</strong> ${time}</li><br>
+                    <li><strong>Name of Organizer:</strong> ${organizerName}</li><br>
+                    <li><strong>Customer:</strong> ${customer}</li><br>
+                    <li><strong>Expire Event Date :</strong> ${expireEventDate}</li><br>
+                    <li><strong>Sale tickets:</strong> ${saleTicket}</li><br>
+                    <li><strong>Count of Shares:</strong> ${countOfShares}</li><br>
                 </ul>
             </div>
             
